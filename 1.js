@@ -55,11 +55,20 @@ const data_obj = {
 var card =document.getElementById("c1")
 
 
-// var i1 =document.getElementById("i1")
+var i1 =document.getElementById("i1")
 
 
 const {title,description,image_url}=data_obj
 
-card.innerHTML= ` ${title}`
-
+card.innerHTML= ` <div id="c1" class="card" style="width: 18rem">
+<img id="i1" src="${image_url}" class="card-img-top" alt="..." />
+<div id="d2" class="card-body">
+  <h5 class="card-title">Card title</h5>
+  <p class="card-text">
+    Some quick example text to build on the card title and make up the
+    bulk of the card's content.
+  </p>
+  <a href="#" class="btn btn-primary">Go somewhere</a>
+</div>
+</div>`
 
