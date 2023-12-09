@@ -44,4 +44,22 @@ console.log(duja)
 
 
 
+const data_obj = {
+    title:"Product Title",
+    description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    image_url:'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png'
+}
+
+
+
+var card =document.getElementById("c1")
+
+
+// var i1 =document.getElementById("i1")
+
+
+const {title,description,image_url}=data_obj
+
+card.innerHTML= ` ${title}`
+
 
